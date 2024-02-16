@@ -30,10 +30,12 @@ git clone https://github.com/hin1115/NCD-DLT.git
 - ```--pseudo```: Use the Hamming hash graph merging algorithm as a pseudo label with supervised contrastive learning.
 - ```--threshold_size```: Node size threshold for graph merging.
 - ```--threshold_confidence```: Confidence threshold for graph mering.
+- ```--lc``` or ```--no-lc```: Long-tailed distribution or not.
+- ```--imb_ratio```: Imbalance ratio of the long-tailed distribution.
 - Post-processing with graph merging will be applied automatically. Both the naive accuracy and post-processed accuracy will displayed together.
 
 ```
-python NCD-DLT.py --gpu_id 0  --init_epochs 50 --epochs 10  --dataset_name cifar100 --greedy --double --pseudo --lam 10 --threshold_size 10 --threshold_confidence 0.2 
+python NCD-DLT.py --gpu_id 0  --init_epochs 50 --epochs 10  --dataset_name cifar100 --greedy --double --pseudo --lam 10 --threshold_size 10 --threshold_confidence 0.2 --lc --imb_ratio 100
 ```
 
 
