@@ -1,4 +1,4 @@
-# NCD-DLT
+# Towards On-the-Fly Novel Category Discovery in Dynamic Long-Tailed Distributions
 ## Introduction
 NCD-DLT aims to discover novel classes in a challenging condition, where new unlabeled data keeps arriving dynamically within the long-tailed distribution.
 
