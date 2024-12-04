@@ -16,7 +16,7 @@ torch=2.0.1
   ```
 ### Clone Repository
 ```
-git clone https://github.com/hin1115/NCD-DLT.git
+git clone https://github.com/HoinJung/NCD-DLT.git
 ```
 
 ## Pretrained DINO
